@@ -13,14 +13,15 @@ La siguiente guía asume que tiene al menos un par de equipos, físicos o virtua
 
 ## Instalación:
 
-> sudo apt install mpich
+`sudo apt install mpich`
 
-podría ser necesario verificar que esté instalado gcc (>sudo apt install gcc)
+podría ser necesario verificar que esté instalado gcc (`sudo apt install gcc`)
 
 Debe tener instalado y activo el servidor ssh
 
-> sudo apt install openssh-server
-> sudo service sshd start
+`sudo apt install openssh-server`
+
+`sudo service sshd start`
 
 Es necesario que todos los equipos del clúster conozcan las IPs de los otros. Regístrelas en el /etc/hosts de todos los equipos.
 
