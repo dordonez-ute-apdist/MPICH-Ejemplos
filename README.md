@@ -42,21 +42,14 @@ Para compilar: `mpicc mpi_hello.c -o mpi_hello`
 
 Para ejecutar hay varias opciones:
 
-Un solo proceso en la máquina local
-
-- mpiexec ./mpi_hello
-
-Varios procesos en la máquina local
-
-- mpiexec -n 4 ./mpi_hello
-
-En clúster, de acuerdo a las definiciones  de machinefile
-
-- mpiexec -f machinefile ./mpi_hello
-
+- Un solo proceso en la máquina local
+-- `mpiexec ./mpi_hello`
+- Varios procesos en la máquina local
+-- `mpiexec -n 4 ./mpi_hello`
+- En clúster, de acuerdo a las definiciones  de machinefile
+-- `mpiexec -f machinefile ./mpi_hello`
 En clúster, de acuerdo a las definiciones de machinefile, indicando el número total de procesos a distribuirse:
-
-- mpiexec -n 16 -f machinefile ./mpi_hello
+-- `mpiexec -n 16 -f machinefile ./mpi_hello`
 
 
 
