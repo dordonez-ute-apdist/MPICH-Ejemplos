@@ -1,11 +1,9 @@
 # MPICH-Ejemplos
 Usar MPICH
 
-La URL de base para obtener información de mpich es: https://www.mpich.org/
-
-Para instalar mpich remítase a: https://www.mpich.org/static/downloads/3.4/mpich-3.4-installguide.pdf
-
-Para usar mpich remítase a: https://www.mpich.org/static/downloads/3.4/mpich-3.4-userguide.pdf
+- La URL de base para obtener información de mpich es: https://www.mpich.org/
+- Para instalar mpich remítase a: https://www.mpich.org/static/downloads/3.4/mpich-3.4-installguide.pdf
+- Para usar mpich remítase a: https://www.mpich.org/static/downloads/3.4/mpich-3.4-userguide.pdf
 
 # Rápidamente...
 
@@ -21,7 +19,7 @@ Debe tener instalado y activo el servidor ssh
 
 `sudo apt install openssh-server`
 
-`sudo service sshd start`
+`sudo service ssh start`
 
 Es necesario que todos los equipos del clúster conozcan las IPs de los otros. Regístrelas en el /etc/hosts de todos los equipos.
 
