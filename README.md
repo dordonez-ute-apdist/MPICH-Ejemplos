@@ -9,7 +9,7 @@ Para usar mpich remítase a: https://www.mpich.org/static/downloads/3.4/mpich-3.
 
 # Rápidamente...
 
-La siguiente guía asume que tiene al menos un par de equipos, físicos o virtuales, Ubuntu 20+ server interconectados (pueden al menos hacer ping entre ellos) y sin restricciones de firewalls (ej: sudo ufw status --> ufw inactive)
+La siguiente guía asume que tiene al menos un par de equipos, físicos o virtuales, Ubuntu 20+ server interconectados (pueden al menos hacer ping entre ellos) y sin restricciones de firewalls (ej: `sudo ufw status` --> Status: inactive)
 
 ## Instalación:
 
