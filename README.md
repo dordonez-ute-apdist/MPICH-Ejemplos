@@ -7,6 +7,8 @@ Usar MPICH
 
 # Rápidamente...
 
+>El camino más rápido posible para ejecutar en un solo nodo es mediante Docker: https://hub.docker.com/r/nlknguyen/alpine-mpich/
+
 La siguiente guía asume que tiene al menos un par de equipos, físicos o virtuales, Ubuntu 20+ server interconectados (pueden al menos hacer ping entre ellos) y sin restricciones de firewalls (ej: `sudo ufw status` --> Status: inactive)
 
 ## Instalación:
